@@ -1,0 +1,117 @@
+@media (min-width: 1024px) and (max-width: 1600px) {
+  .container {
+    max-width: 1084px;
+  }
+  
+  .header {
+    padding-top: 26px;
+  }
+
+  .hed-foot-wrapper {
+    width: 1024px;
+  }
+
+  .logo {
+    width: 60px;
+    height: 60px;
+  }
+
+  .logo__text {
+    font-size: 22px;
+  }
+
+  .phone-number {
+    width: 186px;
+  }
+
+  .phone-number__num {
+    font-size: 21px;
+  }
+
+  .phone-number__text {
+    font-size: 13px;
+  }
+
+
+
+  .main-section {
+    padding-block: 156px 70px;
+  }
+
+  .wrapper {
+    max-width: 780px;
+  }
+
+  .main-section__title {
+    font-size: 40px;
+    margin-bottom: 27px;
+  }
+
+  .main-section__text {
+    font-size: 18px;
+    margin-bottom: 71px;
+  }
+
+  
+
+
+  .about__title {
+    font-size: 32px;
+    margin-bottom: 23px;
+  }
+
+  .about__subtitle {
+    font-size: 20px;
+    margin-bottom: 33px;
+  }
+
+  .about__text {
+    width: 660px;
+    font-size: 16px;
+  }
+
+  .about__advantages-item {
+    width: 180px;
+    height: 182px;
+  }
+
+  .advantages__num {
+    width: 104px;
+    height: 104px;
+    margin-bottom: 26px;
+  }
+
+  .advantages__num-item {
+    font-size: 52px;
+  }
+  .advantages__text {
+    font-size: 18px;
+  }
+
+  .callback {
+    padding-bottom: 56px;
+  }
+
+  .callback__title {
+    font-size: 32px;
+    margin-bottom: 16px;
+  }
+
+  .callback__form-title {
+    font-size: 20px;
+  }
+
+  .callback__form-input {
+    width: 377px;
+    height: 39px;
+    padding-inline: 23px;
+  }
+
+  .callback__agree {
+    font-size: 17px;
+  }
+
+  .footer {
+    padding-block: 49px;
+  }
+}

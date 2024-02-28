@@ -1,0 +1,269 @@
+.header {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  padding-top: 40px;
+}
+
+.hed-foot-wrapper {
+  display: flex;
+  width: 1260px;
+  padding-inline: 30px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 68px;
+  height: 68px;
+  background-color: rgb(21, 169, 203);
+  border-radius: 50%;
+}
+
+.logo__text {
+  font-family: Pacifico;
+  font-size: 25px;
+}
+
+.header__phone-img {
+  display: none;
+}
+
+.phone-number {
+  width: 210px;
+  text-align: center;
+}
+
+.phone-number__num {
+  font-size: 24px;
+  line-height: 28px;
+  margin-bottom: 3px;
+}
+
+.phone-number__text {
+  text-decoration: underline;
+  text-underline-position: under;
+}
+
+.main-section {
+  padding-block: 228px 132px;
+  background-image: url(../img/Background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.wrapper {
+  max-width: 990px;  
+  margin: 0 auto;
+}
+
+.main-section__title {
+  font-size: 52px;
+  font-weight: 900;
+  text-align: center;
+  margin-bottom: 35px;
+  opacity: 0.86;
+}
+
+.main-section__text {
+  font-size: 22px;
+  text-align: center;
+  margin-bottom: 102px;
+  opacity: 0.75;
+}
+
+.main-section__button-wrapper {
+  text-align: center;
+}
+
+.main-section__button {
+  padding: 12px 48px;
+  font-size: 20px;
+  font-weight: 500;
+  border-radius: 50px;
+  box-shadow: 0px 4px 25px 0px rgba(21, 169, 203, 0.3);
+  background: rgb(21, 169, 203);
+}
+
+.about {
+  display: flex;
+  justify-content: center;
+  padding-block: 70px;
+  color: rgb(56, 58, 76);
+  background-color: #fff;
+}
+
+.about__title {
+  font-size: 35px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.about__subtitle {
+  font-size: 22px;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+.about__text {
+  width: 720px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 50px;
+}
+
+.about__advantages-list {
+  display: flex;
+  gap: 50px;
+}
+
+.about__advantages-item {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 196px;
+  height: 195px;
+}
+
+.advantages__num {
+  display: flex;
+  width: 122px;
+  height: 122px;
+  color: #fff;
+  background-color: rgb(35, 199, 236);
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 16px;
+}
+
+.advantages__num-item {
+  font-size: 57px;
+  font-weight: 500;
+}
+
+.advantages__text {
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.callback {
+  display: flex;
+  justify-content: center;
+  padding-block: 70px;
+  background-image: url(../img/Background2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.callback__title {
+  font-size: 35px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 17px;
+}
+
+.callback__form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.callback__form-title {
+  font-size: 22px;
+  font-weight: 500;
+  opacity: 0.8;
+  text-align: center;
+  margin-bottom: 50px;
+  border: none;
+}
+
+.callback__form-input {
+  width: 423px;
+  height: 44px;
+  padding-inline: 25px;
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 50px;
+}
+
+.callback__form-input-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.callback__form-input:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.callback__form-input:last-child {
+  margin-bottom: 50px;
+}
+
+.callback__form-button {
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+  padding: 11px 38px;
+  color: #fff;
+  background-color: rgb(21, 169, 203);
+  box-shadow: 0px 4px 25px 0px rgba(21, 169, 203, 0.3);
+  border-radius: 50px;
+  margin-bottom: 50px;
+}
+
+.callback__agree {
+  font-size: 20px;
+  text-align: center;
+}
+
+.callback__agree_item {
+  color: rgb(74, 118, 168);
+  text-decoration: underline;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(47, 50, 75);
+  padding-block: 45px;
+}
+
+.footer__wrapper {
+  display: flex;
+  padding-inline: 30px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__item {
+  display: flex;
+  align-items: center;
+}
+
+.footer__logo {
+  margin-right: 19px;
+}
+
+.footer__copyright {
+  width: 130px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.footer__autor {
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.phone-img {
+  display: none;
+}
