@@ -148,6 +148,7 @@
 
   .callback__agree {
     font-size: 11px;
+    max-width: 290px;
   }
 
   .footer {
@@ -168,7 +169,7 @@
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
-    width: 320px;
+    width: 100%;
     height: 47px;
     justify-content: center;
     text-align: center;
