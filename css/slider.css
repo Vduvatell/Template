@@ -1,5 +1,6 @@
 @media (max-width: 320px) {
   .slider-wrapper{
+    display: block;
     height: 182px;
     position: relative;
     width: 290px;
@@ -29,24 +30,20 @@
   }
 
   .arrow-prev{
-    left:5px;
+    left:10px;
     position:absolute;
     top:50%;
     transform:translateY(-50%) rotate(135deg);
   }
  
   .arrow-next{
-    right: 5px;
+    right: 10px;
     position:absolute;
     top:50%;
     transform:translateY(-50%) rotate(-45deg);
   }
 
-  .light{
-    color:white;
-  }
-
-  .arrow, .light .arrow {
+  .arrow {
     background-size: 10px;
     background-position: 10px 50%;
   }
@@ -58,18 +55,6 @@
   .item-1 {
     z-index: 2;
     opacity: 1;
-    background:url('https://static.pexels.com/photos/6526/sea-beach-holiday-vacation-large.jpg');
-    background-size:cover;
-  }
-
-  .item-2{
-    background:url('https://static.pexels.com/photos/6506/alcohol-bar-drinks-party-large.jpg');
-    background-size:cover;
-  }
-
-  .item-3{
-    background:url('https://static.pexels.com/photos/6529/lake-kajak-kayak-large.jpg');
-    background-size:cover;
   }
 
   *:target ~ .item-1 {
@@ -80,7 +65,7 @@
     opacity: 1;
   }
 
-  #item-2:target ~ .item-2, #item-3:target ~ .item-3 {
+  #item-2:target ~ .item-2, #item-3:target ~ .item-3, #item-4:target ~ .item-4 {
     z-index: 3;
     opacity: 1;
   }
