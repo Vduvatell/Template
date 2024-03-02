@@ -124,3 +124,7 @@ iframe {
   padding: 0 30px;
   margin: 0 auto;
 }
+
+.slider-wrapper {
+  display: none;
+}
