@@ -87,7 +87,6 @@
   }
 
   .advantages {
-    display: none;
     flex-direction: column;
     align-items: center;
     gap: 40px;
