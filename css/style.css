@@ -1,14 +1,13 @@
 .header {
+  width: 100%;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  padding-top: 40px;
+  padding-top: 39px;
 }
 
-.hed-foot-wrapper {
+.navigation {
   display: flex;
-  width: 1260px;
-  padding-inline: 30px;
   justify-content: space-between;
   align-items: center;
 }
@@ -25,7 +24,8 @@
 
 .logo__text {
   font-family: Pacifico;
-  font-size: 25px;
+  font-size: 25.16px;
+  line-height: 44px;
 }
 
 .header__phone-img {
@@ -34,28 +34,32 @@
 
 .phone-number {
   width: 210px;
+  height: 53px;
   text-align: center;
 }
 
 .phone-number__num {
-  font-size: 24px;
+  font-size: 23.85px;
   line-height: 28px;
-  margin-bottom: 3px;
+  margin-bottom: 1px;
 }
 
 .phone-number__text {
-  text-decoration: underline;
-  text-underline-position: under;
+  border-bottom: 1px solid #fff;
+  line-height: 27px;
 }
 
 .main-section {
-  padding-block: 228px 132px;
+  padding-block: 223px 132px;
   background-image: url(../img/Background.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   max-width: 990px;  
   margin: 0 auto;
 }
@@ -63,6 +67,7 @@
 .main-section__title {
   font-size: 52px;
   font-weight: 900;
+  line-height: 61px;
   text-align: center;
   margin-bottom: 35px;
   opacity: 0.86;
@@ -70,17 +75,15 @@
 
 .main-section__text {
   font-size: 22px;
+  line-height: 26px;
   text-align: center;
   margin-bottom: 102px;
   opacity: 0.75;
 }
 
-.main-section__button-wrapper {
-  text-align: center;
-}
-
 .main-section__button {
   padding: 12px 48px;
+  color: #fff;
   font-size: 20px;
   font-weight: 500;
   border-radius: 50px;
@@ -98,6 +101,7 @@
 
 .about__title {
   font-size: 35px;
+  line-height: 41px;
   font-weight: 700;
   text-align: center;
   margin-bottom: 25px;
@@ -105,6 +109,7 @@
 
 .about__subtitle {
   font-size: 22px;
+  line-height: 26px;
   font-weight: 500;
   text-align: center;
   margin-bottom: 35px;
@@ -115,12 +120,14 @@
   margin: 0 auto;
   text-align: center;
   font-size: 18px;
+  line-height: 21px;
   margin-bottom: 50px;
 }
 
 .about__advantages-list {
   display: flex;
   gap: 50px;
+  counter-reset: count 0;
 }
 
 .about__advantages-item {
@@ -132,6 +139,7 @@
 }
 
 .advantages__num {
+  position: relative;
   display: flex;
   width: 122px;
   height: 122px;
@@ -141,6 +149,15 @@
   align-items: center;
   justify-content: center;
   margin-bottom: 16px;
+}
+
+.advantages__num::after {
+  content: counter(count);
+  position: absolute;
+  font-size: 57px;
+  font-weight: 500;
+  line-height: 100%;
+  counter-increment: count;
 }
 
 .advantages__num-item {
@@ -165,6 +182,7 @@
 
 .callback__title {
   font-size: 35px;
+  line-height: 41px;
   font-weight: 700;
   text-align: center;
   margin-bottom: 17px;
@@ -178,6 +196,7 @@
 
 .callback__form-title {
   font-size: 22px;
+  line-height: 26px;
   font-weight: 500;
   opacity: 0.8;
   text-align: center;
@@ -227,21 +246,12 @@
 
 .callback__agree_item {
   color: rgb(74, 118, 168);
-  text-decoration: underline;
+  border-bottom: 1px solid rgb(74, 118, 168);
 }
 
 .footer {
-  display: flex;
-  justify-content: center;
   background-color: rgb(47, 50, 75);
   padding-block: 45px;
-}
-
-.footer__wrapper {
-  display: flex;
-  padding-inline: 30px;
-  justify-content: space-between;
-  align-items: center;
 }
 
 .footer__item {
@@ -256,6 +266,7 @@
 .footer__copyright {
   width: 130px;
   font-size: 12px;
+  line-height: 14px;
   font-weight: 500;
 }
 

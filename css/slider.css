@@ -5,6 +5,7 @@
     position: relative;
     width: 290px;
     margin: 0 auto;
+    counter-reset: count-2 0;
   }
 
   .wrapper-item{
@@ -20,6 +21,15 @@
     padding:25px 50px;
     opacity:0;
     transition: all 0.5s ease-in-out;
+  }
+
+  .advantages__num::after {
+    content: counter(count-2);
+    position: absolute;
+    font-size: 57px;
+    font-weight: 500;
+    line-height: 100%;
+    counter-increment: count-2;
   }
 
   .arrow{
