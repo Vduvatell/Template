@@ -80,7 +80,7 @@
   }
 
   
-  @media (prefers-color-scheme: dark) {
+  /* @media (prefers-color-scheme: dark) {
     .about {
       background: #292929;
       color: #fff;
@@ -90,5 +90,5 @@
       border: solid white;
       border-width: 0 3px 3px 0;
     }
-  }
+  } */
 }

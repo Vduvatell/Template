@@ -73,6 +73,10 @@
   opacity: 0.86;
 }
 
+.main-section__text_invisible {
+  display: none;
+}
+
 .main-section__text {
   font-size: 22px;
   line-height: 26px;
