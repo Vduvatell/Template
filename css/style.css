@@ -3,7 +3,7 @@
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  padding-top: 39px;
+  padding-top: 37px;
 }
 
 .navigation {
@@ -40,8 +40,7 @@
 
 .phone-number__num {
   font-size: 23.85px;
-  line-height: 28px;
-  margin-bottom: 1px;
+  line-height: 33px;
 }
 
 .phone-number__text {
@@ -50,7 +49,7 @@
 }
 
 .main-section {
-  padding-block: 223px 132px;
+  padding-block: 226px 120px;
   background-image: url(../img/Background.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -69,7 +68,7 @@
   font-weight: 900;
   line-height: 61px;
   text-align: center;
-  margin-bottom: 35px;
+  margin-bottom: 36px;
   opacity: 0.86;
 }
 
@@ -81,7 +80,7 @@
   font-size: 22px;
   line-height: 26px;
   text-align: center;
-  margin-bottom: 102px;
+  margin-bottom: 103px;
   opacity: 0.75;
 }
 
@@ -98,7 +97,7 @@
 .about {
   display: flex;
   justify-content: center;
-  padding-block: 70px;
+  padding-block: 70px 71px;
   color: rgb(56, 58, 76);
   background-color: #fff;
 }
@@ -116,7 +115,7 @@
   line-height: 26px;
   font-weight: 500;
   text-align: center;
-  margin-bottom: 35px;
+  margin-bottom: 36px;
 }
 
 .about__text {
@@ -125,7 +124,7 @@
   text-align: center;
   font-size: 18px;
   line-height: 21px;
-  margin-bottom: 50px;
+  margin-bottom: 69px;
 }
 
 .about__advantages-list {
@@ -152,7 +151,7 @@
   border-radius: 50%;
   align-items: center;
   justify-content: center;
-  margin-bottom: 16px;
+  margin-bottom: 9px;
 }
 
 .advantages__num::after {
@@ -210,7 +209,7 @@
 
 .callback__form-input {
   width: 423px;
-  height: 44px;
+  height: 46px;
   padding-inline: 25px;
   background-color: transparent;
   color: #fff;
@@ -224,23 +223,27 @@
 }
 
 .callback__form-input:not(:last-child) {
-  margin-bottom: 20px;
+  margin-bottom: 19px;
 }
 
 .callback__form-input:last-child {
   margin-bottom: 50px;
 }
 
+.callback__form-input::placeholder {
+  font-size: 22px;
+}
+
 .callback__form-button {
   font-size: 20px;
   font-weight: 500;
   text-align: center;
-  padding: 11px 38px;
+  padding: 11px 38px 12px;
   color: #fff;
   background-color: rgb(21, 169, 203);
   box-shadow: 0px 4px 25px 0px rgba(21, 169, 203, 0.3);
   border-radius: 50px;
-  margin-bottom: 50px;
+  margin-bottom: 52px;
 }
 
 .callback__agree {
@@ -255,7 +258,7 @@
 
 .footer {
   background-color: rgb(47, 50, 75);
-  padding-block: 45px;
+  padding-block: 43px 50px;
 }
 
 .footer__item {
@@ -277,6 +280,16 @@
 .footer__autor {
   font-size: 12px;
   font-weight: 500;
+  padding-top: 5px;
+  padding-right: 5px;
+}
+
+.footer__number {
+  line-height: 28px;
+}
+
+.footer__number-text {
+  line-height: 32px;
 }
 
 .phone-img {
